@@ -30,9 +30,9 @@ Data Set Characteristics:
 
     :Number of Instances: 506 
 
-    :Number of Attributes: 13 numeric/categorical predictive
+    :Number of Attributes: 12 numeric/categorical predictive
     
-    :Median Value (attribute 14) is usually the target
+    :Median Value (attribute 13) is usually the target
 
     :Attribute Information (in order):
         - CRIM     per capita crime rate by town
@@ -46,7 +46,6 @@ Data Set Characteristics:
         - RAD      index of accessibility to radial highways
         - TAX      full-value property-tax rate per $10,000
         - PTRATIO  pupil-teacher ratio by town
-        - B        1000(Bk - 0.63)^2 where Bk is the proportion of blacks by town
         - LSTAT    % lower status of the population
         - MEDV     Median value of owner-occupied homes in $1000's
 
