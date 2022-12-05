@@ -53,11 +53,7 @@ Data Set Characteristics:
 
     :Creator: Harrison, D. and Rubinfeld, D.L.
 
-This is a copy of UCI ML housing dataset.
-http://archive.ics.uci.edu/ml/datasets/Housing
 
-
-This dataset was taken from the StatLib library which is maintained at Carnegie Mellon University.
 ==========================================================================
 
 ## DATA PREPARATION - MODEL TRAINING
