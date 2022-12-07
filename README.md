@@ -44,13 +44,21 @@ pickle:   used in serializing and deserializing a Python object structure. 
 # Installation Guide
 
 Before running the application first install the following dependencies.
+
 import numpy as np # linear algebra
+
 import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
+
 import matplotlib.pyplot as plt
+
 import seaborn as sns
+
 import sklearn.datasets
+
 from sklearn.model_selection import train_test_split
+
 from sklearn.linear_model import LinearRegression
+
 from sklearn import metrics
 
 ==========================================================================
