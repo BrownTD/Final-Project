@@ -238,6 +238,26 @@ C. Categorical variables - correlation to sales price
 
 ## RESULTS / MODEL TRAINING RESULTS
 
+r-score
+
+![image](https://user-images.githubusercontent.com/108433370/206318974-5569dca0-2e8a-47c8-a77a-1b6bcb430e72.png)
+
+actual vs predicted prices
+
+![image](https://user-images.githubusercontent.com/108433370/206319008-5575b691-fa4c-4f58-b710-0a6ffabee679.png)
+
+RMSE score - base model
+![image](https://user-images.githubusercontent.com/108433370/206319038-14f94171-0a97-4639-8bd8-49a97dbeb568.png)
+
+RMSE score - after fine tuning
+
+![image](https://user-images.githubusercontent.com/108433370/206319092-b8846708-badd-4e51-bb68-272a46f888d4.png)
+
+
+
+
+
+
 
 
 
