@@ -14,17 +14,42 @@ Ros Tiamzon
 
 ## PROJECT GOAL
 
+“Our aim is to create a predictive analysis of house prices so we can advise potential buyers or investors on sales prices and where to buy (neighborhood) based on the home features that they value most.”
+
+
 ==========================================================================
 
-## MODEL, TOOLS, LIBRARIES
+## MODEL, TECHNOLOGIES, LIBRARIES
+
+numpy: provides comprehensive mathematical functions, used for working with arrays. 
+
+pandas:  provides a plethora of useful functions that make it easy to express, analyze, and manipulate data.
+
+matplotlib:  a comprehensive library for creating static, animated, and interactive visualizations in python.
+
+hvplot:  allows for users to easily generate a wide array of plot types and interactive visualizations 
+
+seaborn: a library mostly used for statistical plotting in Python, built on top of matplotlib and provides beautiful default styles and color palettes to make statistical plots more attractive.
+
+geoviews:  library that makes it easy to explore and visualize geographical, meteorological, and oceanographic datasets
+
+sklearn:  a machine learning library for the python programming language that allows for the use of multiple machine learning models, tools, and algorithms.
+
+cartopy: allows for georeferencing matplotlib axes objects. Cartopy’s crs class supports a variety of map projections.
+
+xgboost:  is an implementation of gradient-boosting decision trees. It has been used by data scientists and researchers worldwide to optimize their machine-learning models.
+
+pickle:   used in serializing and deserializing a Python object structure. 
+
 
 ==========================================================================
 
 ## ABOUT THE PROJECT
-Boston House Prices dataset
-===========================
+Iowa House Prices dataset / prediction
 
-Notes
+Relevant House Features Used:
+
+
 ------
 Data Set Characteristics:  
 
