@@ -49,39 +49,127 @@ Iowa House Prices dataset / prediction
 
 Relevant House Features Used:
 
+    SalePrice - the property's sale price in dollars. This is the target variable to be predicted.
+    MSSubClass: The building class
+    MSZoning: The general zoning classification:
+                C for Commercial
+                FV for Floating Village
+                RH for Residential High Density
+                RL for Residential Low Density 
+                RM for Residential Medium Density 
+    LotFrontage: Linear feet of street connected to property
+    LotArea: Lot size in square feet
+    Street: Type of road access
+    Alley: Type of alley access
+    LotShape: General shape of property
+    LandContour: Flatness of the property
+    Utilities: Type of utilities available
+    LotConfig: Lot configuration
+    LandSlope: Slope of property
+    Neighborhood: Physical locations within Ames city limits
+    Condition1: Proximity to main road or railroad
+    Condition2: Proximity to main road or railroad (if a second is present)
+    BldgType: Type of dwelling
+    HouseStyle: Style of dwelling
+    OverallQual: Overall material and finish quality
+    OverallCond: Overall condition rating
+    YearBuilt: Original construction date
+    YearRemodAdd: Remodel date
+    RoofStyle: Type of roof
+    RoofMatl: Roof material
+    Exterior1st: Exterior covering on house
+    Exterior2nd: Exterior covering on house (if more than one material)
+    MasVnrType: Masonry veneer type
+    MasVnrArea: Masonry veneer area in square feet
+    ExterQual: Exterior material quality
+    ExterCond: Present condition of the material on the exterior
+    Foundation: Type of foundation
+    BsmtQual: Height of the basement
+    BsmtCond: General condition of the basement
+    BsmtExposure: Walkout or garden level basement walls
+    BsmtFinType1: Quality of basement finished area
+    BsmtFinSF1: Type 1 finished square feet
+    BsmtFinType2: Quality of second finished area (if present)
+    BsmtFinSF2: Type 2 finished square feet
+    BsmtUnfSF: Unfinished square feet of basement area
+    TotalBsmtSF: Total square feet of basement area
+    Heating: Type of heating
+    HeatingQC: Heating quality and condition
+    CentralAir: Central air conditioning
+    Electrical: Electrical system
+    1stFlrSF: First Floor square feet
+    2ndFlrSF: Second floor square feet
+    LowQualFinSF: Low quality finished square feet (all floors)
+    GrLivArea: Above grade (ground) living area square feet
+    BsmtFullBath: Basement full bathrooms
+    BsmtHalfBath: Basement half bathrooms
+    FullBath: Full bathrooms above grade
+    HalfBath: Half baths above grade
+    Bedroom: Number of bedrooms above basement level
+    Kitchen: Number of kitchens
+    KitchenQual: Kitchen quality
+    TotRmsAbvGrd: Total rooms above grade (does not include bathrooms)
+    Functional: Home functionality rating
+    Fireplaces: Number of fireplaces
+    FireplaceQu: Fireplace quality
+    GarageType: Garage location
+    GarageYrBlt: Year garage was built
+    GarageFinish: Interior finish of the garage
+    GarageCars: Size of garage in car capacity
+    GarageArea: Size of garage in square feet
+    GarageQual: Garage quality
+    GarageCond: Garage condition
+    PavedDrive: Paved driveway
+    WoodDeckSF: Wood deck area in square feet
+    OpenPorchSF: Open porch area in square feet
+    EnclosedPorch: Enclosed porch area in square feet
+    3SsnPorch: Three season porch area in square feet
+    ScreenPorch: Screen porch area in square feet
+    PoolArea: Pool area in square feet
+    PoolQC: Pool quality
+    Fence: Fence quality
+    MiscFeature: Miscellaneous feature not covered in other categories
+    MiscVal: $Value of miscellaneous feature
+    MoSold: Month Sold
+    YrSold: Year Sold
+    SaleType: Type of sale
+    SaleCondition: Condition of sale
 
-------
-Data Set Characteristics:  
+==========================================================================
 
-    :Number of Instances: 506 
+## DATA PROCESSING STEPS
 
-    :Number of Attributes: 12 numeric/categorical predictive
-    
-    :Median Value (attribute 13) is usually the target
+1. DATA COLLECTION: Collected public information on housing data 
+2. DATA EXPLORATION: Analyzed data, house features, correlation of house features to sales prices, analyzed numerical variables (discrete vs continuous), analyzed categorical features, distribution of sales prices
+3. DATA CLEANING: Analyzed/cleansed missing data, analyzed outliers
+4. HOME FEATURES ENGINEERING: Analyzed rare categorical features (less than 1% removed since not adding value to sales price)
+5. DATA TRANSFORMATION: Converted categorical variables to one hot encoding, removed duplicates, prepared data for feeding into the model
 
-    :Attribute Information (in order):
-        - CRIM     per capita crime rate by town
-        - ZN       proportion of residential land zoned for lots over 25,000 sq.ft.
-        - INDUS    proportion of non-retail business acres per town
-        - CHAS     Charles River dummy variable (= 1 if tract bounds river; 0 otherwise)
-        - NOX      nitric oxides concentration (parts per 10 million)
-        - RM       average number of rooms per dwelling
-        - AGE      proportion of owner-occupied units built prior to 1940
-        - DIS      weighted distances to five Boston employment centres
-        - RAD      index of accessibility to radial highways
-        - TAX      full-value property-tax rate per $10,000
-        - PTRATIO  pupil-teacher ratio by town
-        - LSTAT    % lower status of the population
-        - MEDV     Median value of owner-occupied homes in $1000's
+==========================================================================
 
-    :Missing Attribute Values: None
+## RESULTS / GRAPHS
 
-    :Creator: Harrison, D. and Rubinfeld, D.L.
+
+
+
+
 
 
 ==========================================================================
 
-## DATA PREPARATION - MODEL TRAINING
+## RESULTS / MODEL TRAINING RESULTS
+
+
+
+
+
+
+
+
+
+
+
+
 
 ==========================================================================
 
